@@ -68,6 +68,27 @@ echo '<br>';
 echo 'con baño' . $saxofon -> baño=' dorado, afinado en' . $saxofon -> tonalidad=' Bb, con boquilla'.$saxofon -> boquilla=' metálica y de la marca' . $saxofon -> marca=' Tone King.';
 
 
+?>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Creamos página web con JavaScript para ver similitudes -->
+    <script>
+    var valor = "Prueba JS";
+    document.write(valor); // es lo mismo que escribir valor -> write en php. 
+    </script>
+    
+</body>
+</html>
+
+
+<?php
 
 
 
