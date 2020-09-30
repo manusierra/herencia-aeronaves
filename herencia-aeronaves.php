@@ -43,11 +43,17 @@ echo 'El B738 ';
 $UH->llevar();
 $UH->girar();
 
-echo $B738->motor;
+echo $UH->motor;
 echo '<br>';
-echo $B738->combustible;
+echo $UH->combustible;
 echo '<br>';
-echo $B738->fuselaje;
+echo $UH->fuselaje;
 echo '<br>';
-echo $B738->pasaje;
+echo $UH->pasaje;
 echo '<br>';
+
+// Resultados ultraligero
+
+$ultra = new Ultraligero('dos tiempos', 'Transporte tropas', '800hp', '2500kg', 'Aleación', '2');
+
+$ultra->motorizar();
